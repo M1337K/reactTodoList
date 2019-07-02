@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 
 export default class TodoInput extends Component {
-
     render() {
         const {item, handleChange, handleSubmit, editItem} = this.props;
         return <div className={"card card-body my-3"}>
@@ -31,8 +30,6 @@ export default class TodoInput extends Component {
                 >
                     {editItem ? 'Edit item' : 'Add New Todo item'}</button>
             </form>
-
-
         </div>;
 
 

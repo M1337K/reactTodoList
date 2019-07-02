@@ -1,0 +1,16 @@
+.main_container {
+    background: url(img/sardegna.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.row {
+    padding-top: 195px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
